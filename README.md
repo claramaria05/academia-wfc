@@ -52,6 +52,37 @@ O sistema Academia WCF possui uma tela de acesso com opções de login e cadastr
 - Gerenciar pagamentos;
 - Encerrar sessão.
 
+## Semana 2 — Desenvolvimento do Core MVP
+
+Nesta etapa, foi implementada e testada a jornada principal do sistema Academia WCF.
+
+### 1. Implementação da jornada principal
+- Login do aluno;
+- Consulta das modalidades disponíveis;
+- Escolha de modalidade;
+- Realização de matrícula;
+- Confirmação da matrícula.
+
+### 2. Persistência e regras de negócio
+
+O sistema utiliza o LocalStorage do navegador para armazenar e manter os dados, mesmo após atualizar a página.
+
+Foram implementadas e testadas as seguintes regras:
+
+- Impedir matrículas duplicadas na mesma modalidade;
+- Impedir cadastro com campos obrigatórios vazios;
+- Impedir cadastro com e-mail já existente;
+- Salvar os dados dos alunos;
+- Manter os dados após atualizar a página.
+
+### 3. Testes realizados
+
+As funcionalidades principais foram testadas no navegador, apresentando os resultados esperados.
+
+**Tecnologia de armazenamento:** LocalStorage.
+
+**Situação:** funcionalidades principais implementadas e testadas.
+
 **Validações:** o sistema verifica os dados de acesso e apresenta mensagens quando existem informações inválidas, campos obrigatórios não preenchidos ou e-mails já cadastrados.
 
 **Armazenamento:** nesta versão demonstrativa, os dados são armazenados no LocalStorage do navegador.
