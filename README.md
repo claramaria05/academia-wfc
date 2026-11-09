@@ -26,3 +26,32 @@ Permitir que alunos consultem modalidades, horários, realizem matrículas e aco
 
 ## Banco de dados
 Nesta versão, os dados são armazenados localmente no navegador por meio do LocalStorage. A integração com um banco de dados real ainda não foi realizada.
+
+## Mapeamento de telas e navegação
+
+O sistema Academia WCF possui uma tela de acesso com opções de login e cadastro. Após a autenticação, o usuário é direcionado de acordo com seu perfil.
+
+**Fluxo do aluno:**
+- Acessar o sistema;
+- Realizar login ou cadastro;
+- Visualizar o painel inicial;
+- Consultar modalidades;
+- Realizar matrículas;
+- Consultar aulas e confirmar presença;
+- Consultar matrículas e pagamentos;
+- Encerrar sessão.
+
+**Fluxo do administrador:**
+- Acessar o sistema;
+- Realizar login;
+- Visualizar o painel administrativo;
+- Gerenciar alunos;
+- Gerenciar matrículas;
+- Gerenciar modalidades;
+- Gerenciar aulas;
+- Gerenciar pagamentos;
+- Encerrar sessão.
+
+**Validações:** o sistema verifica os dados de acesso e apresenta mensagens quando existem informações inválidas, campos obrigatórios não preenchidos ou e-mails já cadastrados.
+
+**Armazenamento:** nesta versão demonstrativa, os dados são armazenados no LocalStorage do navegador.
