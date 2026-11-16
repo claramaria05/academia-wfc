@@ -1,0 +1,217 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Daniel Carvalho",
+      "email": "aluno@wcf.com",
+      "phone": "(83) 99999-0000",
+      "role": "aluno",
+      "password": "0337f3db83c3368d:e084a2a90565e91b3bc7aa52e196fc763f165203426a7489c39a15a4abb5eebc"
+    },
+    {
+      "id": 2,
+      "name": "Equipe WCF",
+      "email": "admin@wcf.com",
+      "phone": "",
+      "role": "admin",
+      "password": "0337f3db83c3368d:e084a2a90565e91b3bc7aa52e196fc763f165203426a7489c39a15a4abb5eebc"
+    },
+    {
+      "id": 5,
+      "name": "Prof. Carlos",
+      "email": "prof@wcf.com",
+      "phone": "",
+      "role": "professor",
+      "password": "0337f3db83c3368d:e084a2a90565e91b3bc7aa52e196fc763f165203426a7489c39a15a4abb5eebc"
+    },
+    {
+      "id": 3,
+      "name": "Mariana Silva",
+      "email": "mariana@wcf.com",
+      "phone": "",
+      "role": "aluno",
+      "password": "0337f3db83c3368d:e084a2a90565e91b3bc7aa52e196fc763f165203426a7489c39a15a4abb5eebc"
+    },
+    {
+      "id": 4,
+      "name": "Pedro Costa",
+      "email": "pedro@wcf.com",
+      "phone": "",
+      "role": "aluno",
+      "password": "0337f3db83c3368d:e084a2a90565e91b3bc7aa52e196fc763f165203426a7489c39a15a4abb5eebc"
+    }
+  ],
+  "modalidades": [
+    {
+      "id": 1,
+      "name": "Musculação",
+      "icon": "▤",
+      "description": "Treine no seu ritmo com estrutura completa e acompanhamento.",
+      "instructor": "Equipe WCF",
+      "days": "Seg a sáb",
+      "time": "06:00 às 22:00",
+      "capacity": 100
+    },
+    {
+      "id": 2,
+      "name": "Funcional",
+      "icon": "✦",
+      "description": "Treinos dinâmicos para força, resistência e mobilidade.",
+      "instructor": "Camila Rocha",
+      "days": "Seg, qua e sex",
+      "time": "07:00",
+      "capacity": 20
+    },
+    {
+      "id": 3,
+      "name": "Spinning",
+      "icon": "◉",
+      "description": "Energia e condicionamento em aulas coletivas de bike.",
+      "instructor": "Rafael Lima",
+      "days": "Ter e qui",
+      "time": "18:00",
+      "capacity": 16
+    },
+    {
+      "id": 4,
+      "name": "Pilates",
+      "icon": "❋",
+      "description": "Equilíbrio, postura e consciência corporal.",
+      "instructor": "Lívia Andrade",
+      "days": "Ter e qui",
+      "time": "09:00",
+      "capacity": 12
+    }
+  ],
+  "aulas": [
+    {
+      "id": 1,
+      "modalityId": 2,
+      "date": "2026-11-17",
+      "time": "07:00",
+      "instructor": "Camila Rocha",
+      "capacity": 20
+    },
+    {
+      "id": 2,
+      "modalityId": 3,
+      "date": "2026-11-17",
+      "time": "18:00",
+      "instructor": "Rafael Lima",
+      "capacity": 16
+    },
+    {
+      "id": 3,
+      "modalityId": 4,
+      "date": "2026-11-18",
+      "time": "09:00",
+      "instructor": "Lívia Andrade",
+      "capacity": 12
+    },
+    {
+      "id": 4,
+      "modalityId": 2,
+      "date": "2026-11-19",
+      "time": "07:00",
+      "instructor": "Camila Rocha",
+      "capacity": 20
+    },
+    {
+      "id": 5,
+      "modalityId": 3,
+      "date": "2026-11-20",
+      "time": "18:00",
+      "instructor": "Rafael Lima",
+      "capacity": 16
+    }
+  ],
+  "matriculas": [
+    {
+      "id": 1,
+      "userId": 1,
+      "modalityId": 1,
+      "date": "2026-11-16",
+      "status": "Ativa"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "modalityId": 2,
+      "date": "2026-11-16",
+      "status": "Ativa"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "modalityId": 3,
+      "date": "2026-11-16",
+      "status": "Ativa"
+    }
+  ],
+  "presencas": [
+    {
+      "id": 1,
+      "userId": 1,
+      "aulaId": 1,
+      "status": "Confirmada"
+    }
+  ],
+  "treinos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "professorId": 5,
+      "name": "Ficha A - Hipertrofia",
+      "exercises": "Supino Reto 4x10\nLeg Press 3x12",
+      "date": "2026-11-16"
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "professorId": 5,
+      "date": "2026-11-16",
+      "weight": 75.5,
+      "height": 1.75,
+      "bf": 18.2,
+      "notes": "Aluno com boa progressão."
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "professorId": 5,
+      "date": "2026-09-19",
+      "weight": 59,
+      "height": 1.65,
+      "bf": 11,
+      "notes": "Foco: Ganho de massa"
+    }
+  ],
+  "pagamentos": [
+    {
+      "id": 1,
+      "userId": 1,
+      "description": "Mensalidade · Setembro",
+      "amount": 129.9,
+      "due": "2026-11-22",
+      "status": "Pendente"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "description": "Mensalidade · Agosto",
+      "amount": 129.9,
+      "due": "2026-10-23",
+      "status": "Pago"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "description": "Mensalidade · Setembro",
+      "amount": 109.9,
+      "due": "2026-11-21",
+      "status": "Pendente"
+    }
+  ]
+}
